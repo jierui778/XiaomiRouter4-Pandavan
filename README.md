@@ -1,0 +1,2 @@
+# XiaomiRouter4-Pandora
+使用刷入潘多拉固件的小米路由器4实现SCNU校园网的n个设备连接上网
