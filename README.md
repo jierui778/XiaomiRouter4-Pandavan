@@ -27,7 +27,7 @@
 
 <center class = 'img'>
 
-<img src = "./PNG/锐捷客户端安装路径.png" width = 90%>
+<img src = "./PNG/锐捷客户端安装路径.png" width = 80%>
 
 </center>
 
@@ -35,7 +35,7 @@
 
 <center class = 'img'>
 
-<img src = "./PNG/抓包工具配置1.png" width = 90%>
+<img src = "./PNG/抓包工具配置1.png" width = 80%>
 
 </center>
 
@@ -43,7 +43,7 @@
 
 <center class = 'img'>
 
-<img src = "./PNG/抓包工具配置2.png" width = 90%>
+<img src = "./PNG/抓包工具配置2.png" width = 80%>
 
 </center>
 
@@ -51,36 +51,55 @@
 
 <center class = 'img'>
 
-<img src = "./PNG/测试软件配置1.png" width = 90%>
+<img src = "./PNG/测试软件配置1.png" width = 80%>
 
 </center>
 
 <center class = 'img'>
 
-<img src = "./PNG/测试软件配置2.png" width = 90%>
+<img src = "./PNG/测试软件配置2.png" width = 80%>
 
 </center>
 
 <center class = 'img'>
 
-<img src = "./PNG/测试软件配置3.png" width = 90%>
+<img src = "./PNG/测试软件配置3.png" width = 80%>
 
 </center>
 
 <center class = 'img'>
 
-<img src = "./PNG/锐捷认证参数输出.png" width = 90%>
+<img src = "./PNG/锐捷认证参数输出.png" width = 80%>
 
 </center>
 
 ***我们需要保存的是***
 
 ## 路由器配置
-- 打开浏览器，输入`192.168.1.1`，登录账号：admin，密码：admin，打开**外部网
-络**，再打开锐捷认证，填入我们上一步获取到的信息。
-- 上传我们的抓包文件
+- 打开WinScp软件（这里提供安装和免安装版本，可自由选择），填入我们路由器的登录信息，如图：
 
+<center class = 'img'>
+
+<img src = "./PNG/winscp连接信息.png" width = 80%>
+
+</center>
+
+
+- 将抓到的数据包放入`/etc/storage`这个路径下
+
+<center class = 'img'>
+
+<img src = "./PNG/mpf文件存放路径.png" width = 80%>
+
+</center>
+
+- 打开浏览器，输入`192.168.123.1`，登录账号：admin，密码：admin，打开**外部网络**，再打开**锐捷认证**，填入我们在上一步获取到的信息。
 ***注意：不同作者编译的Pandavan固件所对应的路由器IP地址和登录后台的管理员账号密码可能不一样，以作者的说明为准***
+<center class = 'img'>
+
+<img src = "./PNG/最终配置.png" width = 80%>
+
+</center>
 
 
 
