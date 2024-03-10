@@ -10,16 +10,16 @@
 ## 准备工作
 
 - 刷机准备
-  - 对应路由器的Breed固件 **[（点此查找Breed固件）](https://breed.hackpascal.net/)**
+  - 对应路由器的**Breed**固件 **[（点此查找Breed固件）](https://breed.hackpascal.net/)**
       ***注意：不同型号的路由器对应的Breed固件不同，切记不要乱刷导致路由器变砖！！！***
-  - 对应路由器的Pandavan固件 **[（点此查找Pandavan固件）](https://opt.cn2qq.com/padavan/)**
-- 锐捷认证准备
+  - 对应路由器的**Pandavan**固件 **[（点此查找Pandavan固件）](https://opt.cn2qq.com/padavan/)**
+- 伪装Mac准备
   - 锐捷客户端
   - WinSCP
 
 ## 向路由器刷入Breed&Pandavan固件
 
-- 由于大多数博客或者视频网站都有介绍路由器刷Breed&Pandavan的相关教程，这里就不再赘述。（[推荐教程](https://www.bilibili.com/video/BV1wq4y1c7Sc?vd_source=9299b0597ba8d6f604011de5638a2748)）**视频所附文件均已上传GitHub!!!**
+- 由于大多数博客或者视频网站都有路由器刷**Breed&Pandavan**的相关教程，这里就不再赘述。（[推荐教程](https://www.bilibili.com/video/BV1wq4y1c7Sc?vd_source=9299b0597ba8d6f604011de5638a2748)）**视频所附文件均已上传GitHub!!!**
 
 ## 获取伪装的Mac地址
 
