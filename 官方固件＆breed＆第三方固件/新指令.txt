@@ -1,0 +1,29 @@
+#安装必要的模块
+pip install requests
+
+#开启Web服务器
+python -m http.server 2333
+
+# 修改第 27 行，电脑端ip固定为192.168.31.100
+#curl -L "http://192.168.31.100:2333/script_tools/busybox-mipsel" --insecure --output busybox
+#修改第54行
+# 第 54 行，device IP 为你所使用的电脑的局域网 IP 地址
+#curl -L "http://192.168.31.100:2333/script_tools/dropbearStaticMipsel.tar.bz2" --output dropbear.tar.bz2
+
+
+#利用漏洞开启telnet
+python remote_command_execution_vulnerability.py
+
+#telnet进路由器
+telnet 192.168.31.1
+
+#查看路由器分区
+cat /proc/mtd
+
+#备份分区，留意factory跟BootLoader对应的mtd分区，需要备份的是factory和BootLoader
+dd if=/dev/mtd4 of=/tmp/eeprom.bin
+dd if=/dev/mtd1 of=/tmp/Bootloader.bin
+
+#刷入breed
+cd /tmp
+mtd write breed.bin Bootloader
